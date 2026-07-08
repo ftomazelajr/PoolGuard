@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "776818671387",
+    "firebase_url": "https://tomazela-piscinas-default-rtdb.firebaseio.com",
+    "project_id": "tomazela-piscinas",
+    "storage_bucket": "tomazela-piscinas.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776818671387:android:ca4211e6fa8f3f1c889dbe",
+        "android_client_info": {
+          "package_name": "com.poolguard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_2Ssx3a3CW3PEP2RBh7j5TQl1UPuSg4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

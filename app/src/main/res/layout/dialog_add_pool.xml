@@ -4,28 +4,31 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="24dp"
-    android:background="@color/surface">
+    android:background="#FF1A1A2E">
 
     <EditText
         android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:hint="Nome da piscina"
-        android:textColor="@color/textPrimary"
-        android:textColorHint="@color/textSecondary"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FF888888"
         android:padding="16dp"
-        android:background="@drawable/edit_bg" />
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edit_bg"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/etClient"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:hint="Nome do cliente"
-        android:textColor="@color/textPrimary"
-        android:textColorHint="@color/textSecondary"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FF888888"
         android:padding="16dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/edit_bg" />
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edit_bg"
+        android:textSize="16sp" />
 
     <EditText
         android:id="@+id/etPhone"
@@ -33,19 +36,20 @@
         android:layout_height="56dp"
         android:hint="Telefone"
         android:inputType="phone"
-        android:textColor="@color/textPrimary"
-        android:textColorHint="@color/textSecondary"
+        android:textColor="#FFFFFFFF"
+        android:textColorHint="#FF888888"
         android:padding="16dp"
-        android:layout_marginTop="12dp"
-        android:background="@drawable/edit_bg" />
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_bg"
+        android:textSize="16sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dias da semana"
-        android:textColor="@color/accent"
+        android:textColor="#FF00E5FF"
         android:textStyle="bold"
-        android:layout_marginTop="16dp"
+        android:textSize="14sp"
         android:layout_marginBottom="8dp" />
 
     <LinearLayout
@@ -53,11 +57,11 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <CheckBox android:id="@+id/cbSeg" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="SEG" android:textColor="@color/textPrimary" />
-        <CheckBox android:id="@+id/cbTer" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="TER" android:textColor="@color/textPrimary" />
-        <CheckBox android:id="@+id/cbQua" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="QUA" android:textColor="@color/textPrimary" />
-        <CheckBox android:id="@+id/cbQui" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="QUI" android:textColor="@color/textPrimary" />
-        <CheckBox android:id="@+id/cbSex" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="SEX" android:textColor="@color/textPrimary" />
+        <CheckBox android:id="@+id/cbSeg" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="SEG" android:textColor="#FFFFFFFF" android:buttonTint="#FF00E5FF" />
+        <CheckBox android:id="@+id/cbTer" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="TER" android:textColor="#FFFFFFFF" android:buttonTint="#FF00E5FF" />
+        <CheckBox android:id="@+id/cbQua" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="QUA" android:textColor="#FFFFFFFF" android:buttonTint="#FF00E5FF" />
+        <CheckBox android:id="@+id/cbQui" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="QUI" android:textColor="#FFFFFFFF" android:buttonTint="#FF00E5FF" />
+        <CheckBox android:id="@+id/cbSex" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="SEX" android:textColor="#FFFFFFFF" android:buttonTint="#FF00E5FF" />
 
     </LinearLayout>
 
